@@ -1,0 +1,17 @@
+{
+  "name": "@metastruct/ai-copilot",
+  "version": "1.0.0",
+  "description": "AI-powered schema extension and code generation add-on for Metastruct",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
